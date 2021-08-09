@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Juliana Madeira">
+	<meta name="keywords" content="Lego, Blocos de Montar, Blocos, Construção, LEGO, Minifiguras, Minifigure">
+	<meta name="Description" content="Um mundo de Blocos de Montar, LEGO e mais construções. Um mundo cheio de imaginação.">
+	<title>LEGO e Cia</title>
+	<link rel="stylesheet" type="text/css" href="sitelegoecia.css">
+</head>
+<body>
+	<header>
+		<div class="bannerTopo" id="topo">
+			<nav class="menuprincipal">
+				<a href="index.html" class="linkmenu">Home</a>
+				<a href="Marcas.html" class="linkmenu">Marcas</a>
+				<a href="linhas.html" class="linkmenu">Linhas</a>
+				<a href="contato.html" class="linkmenu">Contato</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="painelcontato">
+		<main class="painelformulario">
+			<form action="#" method="POST" class="formulario"></form>
+			<fieldset class="fieldset">
+			<legend class="textocontato">FALE CONOSCO</legend>
+				
+				
+					<div class="div-form">
+						<label for="nome" class="label">Nome:</label>
+						<input type="text" class="nome" placeholder="Insira seu nome aqui..." required="required">
+					</div>
+				
+					<div class="div-form">
+						<label for="email" class="label-lado">E-mail:</label>
+						<label for="dataNascimento" class="label">Data de Nascimento:</label>
+						<input type="email" class="email" required="required">
+						<input type="date" class="dataNascimento">
+					</div> 
+
+					<div class="div-form">
+						<label for="telefone" class="label-lado-tres">Celular:</label>
+						<label for="UF" class="label-lado-meio">Estado:</label>
+						<label for="cidade" class="label">Cidade:</label>
+						<input type="telefone" class="telefone">
+						<select name="UF" id="UF">
+							<option value="">Selecione</option>
+							<option value="AC">AC</option>
+							<option value="AL">AL</option>
+							<option value="AP">AP</option>
+							<option value="AM">AM</option>
+							<option value="BA">BA</option>
+							<option value="CE">CE</option>
+							<option value="DF">DF</option>
+							<option value="ES">ES</option>
+							<option value="GO">GO</option>
+							<option value="MA">MA</option>
+							<option value="MS">MS</option>
+							<option value="MT">MT</option>
+							<option value="MG">MG</option>
+							<option value="PA">PA</option>
+							<option value="PB">PB</option>
+							<option value="PR">PR</option>
+							<option value="PE">PE</option>
+							<option value="PI">PI</option>
+							<option value="RJ">RJ</option>
+							<option value="RN">RN</option>
+							<option value="RS">RS</option>
+							<option value="RO">RO</option>
+							<option value="RR">RR</option>
+							<option value="SC">SC</option>
+							<option value="SP">SP</option>
+							<option value="SE">SE</option>
+							<option value="TO">TO</option>
+						</select>
+						<input type="text" id="cidade">
+					</div>
+
+					
+					<!--Acre - AC; Alagoas - AL;
+						Amapá - AP; Amazonas - AM; Bahia - BA; Ceará - CE; Distrito Federal - DF;
+						Espírito Santo - ES; Goiás - GO; Maranhão - MA; Mato Grosso - MT; Mato Grosso do Sul - MS;
+						Minas Gerais - MG; Pará - PA; Paraíba - PB; Paraná - PR; Pernambuco - PE; Piauí - PI;
+						Roraima - RR; Rondônia - RO; Rio de Janeiro - RJ; Rio Grande do Norte - RN;
+						Rio Grande do Sul - RS; Santa Catarina - SC; São Paulo - SP; Sergipe - SE; Tocantins - TO-->
+										
+					<div class="div-form">
+						<label for="msg" class="label">Mensagem:</label>
+						<textarea name="mensagem" id="msg" cols="55" rows="13" maxlength="500" placeholder="Escreva sua mensagem aqui..."></textarea>
+					</div>
+					<div>
+						<input type="submit" value="Enviar" class="enviar">
+					</div>
+			</fieldset>
+			</form>
+		</main>
+	</div>
+	
+
+	<footer class="rodape">
+		<p class="prodape">&copy; Todos os direitos reservados. Elaborado por Juliana Madeira</p>
+	</footer>
+
+</body>
+</html>	

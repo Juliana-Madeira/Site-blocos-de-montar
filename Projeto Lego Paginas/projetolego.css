@@ -1,0 +1,266 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-color: blue;
+	font-family: arial;
+	
+}
+
+*{
+	margin: 0; 
+}
+
+a { position: relative;
+	top: 10px ;
+	left: 20px;
+	color: blue;
+	text-align: center;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	 }
+
+div{ display: block; }
+
+article{ display: block; }
+
+p{	
+	font-size: 18px;
+	margin-top: 15px;
+	display: block;
+}
+
+
+
+.legobanner{
+	width: 900px;
+	height: 200px;
+	background-image: url(legobanner.jpg);
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.logotipolego {
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
+
+.logotipolele{
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: 30px;
+	left: 230px;
+}
+
+.menudasmarcas{
+	width: 180px;
+	height: 40px;
+	background-color: #fac70a;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	position: relative;
+	top: -30px;
+	left: 115px;
+}
+
+.menuitens{
+	width: 330px;
+	height: 40px;
+	background-color: #fac70a;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	position: relative;
+	left: 40px;
+}
+
+.divMarcaLego {
+	width: 900px;
+	height: 300px;
+	background-color: red;
+	margin: 0 auto;
+}
+
+.logotipolegodiv{
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: 2px solid yellow;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.titulolego{
+	position: relative;
+ 	top: 50px;
+ 	left: 120px;
+ 	margin: 0;
+}
+
+
+.descricaolego{ 
+	width: 700px;
+	position: relative;
+	top: 50px;
+	left: 120px;
+}
+
+.divMarcaLele{
+	width: 900px;
+	height: 300px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+.logotipolelediv{
+	float: right;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	position: relative;
+	top: 50px;
+	right: 100px;
+}
+.titulolele{
+	position: relative;
+ 	top: 50px;
+ 	left: 120px;
+ 	margin: 0;
+}
+.descricaolele{
+	width: 500px;
+	position: relative;
+	top: 50px;
+	left: 60px;
+
+}
+
+.divLINHAcity{
+	width: 900px;
+	height: 300px;
+	background-color: green;
+	margin: 0 auto;
+}
+.linhacity{
+	float: left;
+	width: 150px;
+	border: 2px solid yellow;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.divLINHAcastle{
+	width: 900px;
+	height: 300px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.linhacastle{
+	float: right;
+	width: 150px;
+	border: 2px solid red;
+	position: relative;
+	top: 50px;
+	right: 100px;
+}
+.descricaocastle{
+	width: 560px;
+	position: relative;
+	top: 50px;
+	left: 60px;	
+}
+
+.divLINHAfilmes{
+	width: 900px;
+	height: 300px;
+	background-color: #000099;
+	margin: 0 auto;
+}
+
+.linhafilmes{
+	float: left;
+	width: 200px;
+	border: 3px solid yellow;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+.descricaofilmes{
+	color: white;
+	width: 700px;
+	position: relative;
+	top: 50px;
+	left: 120px;
+}
+
+.titulofilmes{
+	color: white;
+	position: relative;
+ 	top: 50px;
+ 	left: 120px;
+ 	margin: 0;
+
+}
+.divLINHAherois{
+	width: 900px;
+	height: 300px;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+.linhaherois{
+	float: right;
+	width: 200px;
+	border: 2px solid red;
+	position: relative;
+	top: 50px;
+	right: 100px;
+}
+.descricaoherois{
+	width: 520px;
+	position: relative;
+	top: 50px;
+	left: 60px;	
+}
+.divLINHAcolecionavel{
+	width: 900px;
+	height: 300px;
+	background-color: gray;
+	margin: 0 auto;
+}
+.linhacolecionavel{
+	float: left;
+	width: 150px;
+	border: 2px solid yellow;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
+
+.rodape{
+	width: 900px;
+	height: 50px;
+	background-image: url(rodape.jpg);
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.textofooter {
+	color: #000;
+	font-size: 16px;
+	margin-top: 0px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
